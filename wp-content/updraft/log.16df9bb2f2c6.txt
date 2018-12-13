@@ -1,0 +1,393 @@
+0124.452 (1) Opened log file at time: Thu, 13 Dec 2018 09:33:58 +0000 on http://localhost/cuisinella
+0124.453 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux yesweweb-7 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.9M | 2M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0124.455 (1) Free space on disk containing Updraft's temporary directory: 5711.9 MB
+0124.474 (1) Backup run: resumption=1, nonce=16df9bb2f2c6, begun at=1544693513 (125s ago), job type=backup, previous check-in=8.8s
+0124.482 (1) Scheduling a resumption (2) after 300 seconds (1544693938) in case this run gets aborted
+0124.484 (1) Checking if we have a zip executable available
+0124.486 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0124.486 (1) Creation of backups of directories: already finished
+0124.487 (1) Saving backup status to database (elements: 8)
+0124.507 (1) Database dump (WordPress DB): Creation was completed already
+0124.516 (1) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0124.517 (1) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0124.518 (1) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0124.519 (1) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0124.520 (1) backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/cuisinella/wp-content/updraft/backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz)
+0124.526 (1) Recording as successfully uploaded: backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz
+0124.545 (1) Saving backup history. Total backup size: Unknown
+0124.548 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0124.552 (1) Cloud backup selection (1/1): email with instance (1/1) (last)
+0124.553 (1) Beginning dispatch of backup to remote (email)
+0124.566 (1) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: email to: paul....
+0124.788 (1) Mails were not sent successfully
+0124.801 (1) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: email to: paul....
+0124.885 (1) Mails were not sent successfully
+0124.887 (1) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: email to: paul....
+0124.918 (1) Mails were not sent successfully
+0124.933 (1) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: email to: paul....
+0124.947 (1) Mails were not sent successfully
+0124.950 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0124.952 (1) Number of backup sets in history: 1; groups (db): 1
+0124.953 (1) Examining (for databases) backup set with group_id=0, nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+0124.953 (1) This backup set is the backup set just made, so will not be deleted.
+0124.953 (1) Number of backup sets in history: 1; groups (files): 1
+0124.960 (1) Examining (for files) backup set with nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+0124.960 (1) This backup set is the backup set just made, so will not be deleted.
+0124.973 (1) This backup set is the backup set just made, so will not be deleted.
+0124.973 (1) This backup set is the backup set just made, so will not be deleted.
+0124.973 (1) This backup set is the backup set just made, so will not be deleted.
+0124.973 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0124.980 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0124.984 (1) Resume backup (16df9bb2f2c6, 1): finish run
+0124.987 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0124.995 (1) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0425.697 (2) Opened log file at time: Thu, 13 Dec 2018 09:38:59 +0000 on http://localhost/cuisinella
+0425.707 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux yesweweb-7 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.9M | 18M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0425.721 (2) Free space on disk containing Updraft's temporary directory: 5708.8 MB
+0425.733 (2) Backup run: resumption=2, nonce=16df9bb2f2c6, begun at=1544693513 (426s ago), job type=backup
+0425.736 (2) Scheduling a resumption (3) after 300 seconds (1544694239) in case this run gets aborted
+0425.741 (2) Checking if we have a zip executable available
+0425.755 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0425.767 (2) Creation of backups of directories: already finished
+0425.769 (2) Saving backup status to database (elements: 8)
+0425.772 (2) Database dump (WordPress DB): Creation was completed already
+0425.786 (2) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0425.800 (2) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0425.807 (2) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0425.809 (2) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0425.811 (2) backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/cuisinella/wp-content/updraft/backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz)
+0425.813 (2) Recording as successfully uploaded: backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz
+0425.830 (2) Saving backup history. Total backup size: Unknown
+0425.849 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+0425.854 (2) Cloud backup selection (1/1): email with instance (1/1) (last)
+0425.856 (2) Beginning dispatch of backup to remote (email)
+0425.860 (2) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: email to: paul....
+0426.103 (2) Mails were not sent successfully
+0426.116 (2) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: email to: paul....
+0426.171 (2) Mails were not sent successfully
+0426.173 (2) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: email to: paul....
+0426.206 (2) Mails were not sent successfully
+0426.208 (2) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: email to: paul....
+0426.229 (2) Mails were not sent successfully
+0426.250 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0426.253 (2) Number of backup sets in history: 1; groups (db): 1
+0426.257 (2) Examining (for databases) backup set with group_id=0, nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+0426.257 (2) This backup set is the backup set just made, so will not be deleted.
+0426.257 (2) Number of backup sets in history: 1; groups (files): 1
+0426.260 (2) Examining (for files) backup set with nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+0426.260 (2) This backup set is the backup set just made, so will not be deleted.
+0426.261 (2) This backup set is the backup set just made, so will not be deleted.
+0426.262 (2) This backup set is the backup set just made, so will not be deleted.
+0426.262 (2) This backup set is the backup set just made, so will not be deleted.
+0426.262 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0426.275 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0426.294 (2) Resume backup (16df9bb2f2c6, 2): finish run
+0426.297 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0426.302 (2) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0771.407 (3) Opened log file at time: Thu, 13 Dec 2018 09:44:45 +0000 on http://localhost/cuisinella
+0771.415 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux yesweweb-7 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.9M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0771.417 (3) Free space on disk containing Updraft's temporary directory: 5708.4 MB
+0771.421 (3) Backup run: resumption=3, nonce=16df9bb2f2c6, begun at=1544693513 (772s ago), job type=backup
+0771.423 (3) Scheduling a resumption (4) after 300 seconds (1544694585) in case this run gets aborted
+0771.443 (3) Checking if we have a zip executable available
+0771.450 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+0771.452 (3) Creation of backups of directories: already finished
+0771.454 (3) Saving backup status to database (elements: 8)
+0771.458 (3) Database dump (WordPress DB): Creation was completed already
+0771.479 (3) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0771.488 (3) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0771.492 (3) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0771.493 (3) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0771.495 (3) backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/cuisinella/wp-content/updraft/backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz)
+0771.496 (3) Recording as successfully uploaded: backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz
+0771.522 (3) Saving backup history. Total backup size: Unknown
+0771.527 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+0771.531 (3) Cloud backup selection (1/1): email with instance (1/1) (last)
+0771.532 (3) Beginning dispatch of backup to remote (email)
+0771.546 (3) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: email to: paul....
+0771.889 (3) Mails were not sent successfully
+0771.902 (3) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: email to: paul....
+0772.000 (3) Mails were not sent successfully
+0772.002 (3) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: email to: paul....
+0772.053 (3) Mails were not sent successfully
+0772.055 (3) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: email to: paul....
+0772.072 (3) Mails were not sent successfully
+0772.093 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0772.101 (3) Number of backup sets in history: 1; groups (db): 1
+0772.102 (3) Examining (for databases) backup set with group_id=0, nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+0772.102 (3) This backup set is the backup set just made, so will not be deleted.
+0772.102 (3) Number of backup sets in history: 1; groups (files): 1
+0772.103 (3) Examining (for files) backup set with nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+0772.104 (3) This backup set is the backup set just made, so will not be deleted.
+0772.106 (3) This backup set is the backup set just made, so will not be deleted.
+0772.106 (3) This backup set is the backup set just made, so will not be deleted.
+0772.106 (3) This backup set is the backup set just made, so will not be deleted.
+0772.106 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0772.108 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0772.123 (3) Resume backup (16df9bb2f2c6, 3): finish run
+0772.138 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0772.141 (3) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1184.944 (4) Opened log file at time: Thu, 13 Dec 2018 09:51:38 +0000 on http://localhost/cuisinella
+1184.945 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux yesweweb-7 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.9M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+1184.946 (4) Free space on disk containing Updraft's temporary directory: 5707.8 MB
+1184.949 (4) Backup run: resumption=4, nonce=16df9bb2f2c6, begun at=1544693513 (1185s ago), job type=backup
+1184.956 (4) Scheduling a resumption (5) after 300 seconds (1544694998) in case this run gets aborted
+1184.976 (4) Checking if we have a zip executable available
+1184.979 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1184.982 (4) Creation of backups of directories: already finished
+1184.986 (4) Saving backup status to database (elements: 8)
+1185.003 (4) Database dump (WordPress DB): Creation was completed already
+1185.024 (4) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1185.031 (4) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1185.034 (4) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1185.046 (4) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: others: This file has not yet been successfully uploaded: will queue
+1185.047 (4) backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/cuisinella/wp-content/updraft/backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz)
+1185.048 (4) Recording as successfully uploaded: backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz
+1185.051 (4) Saving backup history. Total backup size: Unknown
+1185.060 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+1185.067 (4) Cloud backup selection (1/1): email with instance (1/1) (last)
+1185.068 (4) Beginning dispatch of backup to remote (email)
+1185.069 (4) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: email to: paul....
+1185.279 (4) Mails were not sent successfully
+1185.293 (4) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: email to: paul....
+1185.364 (4) Mails were not sent successfully
+1185.365 (4) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: email to: paul....
+1185.405 (4) Mails were not sent successfully
+1185.407 (4) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: email to: paul....
+1185.416 (4) Mails were not sent successfully
+1185.436 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1185.443 (4) Number of backup sets in history: 1; groups (db): 1
+1185.444 (4) Examining (for databases) backup set with group_id=0, nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+1185.445 (4) This backup set is the backup set just made, so will not be deleted.
+1185.445 (4) Number of backup sets in history: 1; groups (files): 1
+1185.446 (4) Examining (for files) backup set with nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+1185.446 (4) This backup set is the backup set just made, so will not be deleted.
+1185.447 (4) This backup set is the backup set just made, so will not be deleted.
+1185.447 (4) This backup set is the backup set just made, so will not be deleted.
+1185.447 (4) This backup set is the backup set just made, so will not be deleted.
+1185.447 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1185.448 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1185.462 (4) Resume backup (16df9bb2f2c6, 4): finish run
+1185.476 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1185.478 (4) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+2439.957 (5) Opened log file at time: Thu, 13 Dec 2018 10:12:33 +0000 on http://localhost/cuisinella
+2439.958 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux yesweweb-7 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.9M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+2439.959 (5) Free space on disk containing Updraft's temporary directory: 5706 MB
+2439.968 (5) Backup run: resumption=5, nonce=16df9bb2f2c6, begun at=1544693513 (2440s ago), job type=backup
+2439.981 (5) Long time past since expected resumption time: approx expected=1544694998.2, now=1544695953.8, diff=955.6
+2439.988 (5) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+2439.990 (5) Scheduling a resumption (6) after 300 seconds (1544696253) in case this run gets aborted
+2439.992 (5) Checking if we have a zip executable available
+2439.993 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+2439.999 (5) Creation of backups of directories: already finished
+2440.012 (5) Saving backup status to database (elements: 8)
+2440.021 (5) Database dump (WordPress DB): Creation was completed already
+2440.024 (5) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2440.026 (5) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2440.033 (5) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2440.046 (5) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: others: This file has not yet been successfully uploaded: will queue
+2440.053 (5) backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/cuisinella/wp-content/updraft/backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz)
+2440.054 (5) Recording as successfully uploaded: backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz
+2440.056 (5) Saving backup history. Total backup size: Unknown
+2440.059 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+2440.079 (5) Cloud backup selection (1/1): email with instance (1/1) (last)
+2440.086 (5) Beginning dispatch of backup to remote (email)
+2440.087 (5) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: email to: paul....
+2440.327 (5) Mails were not sent successfully
+2440.336 (5) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: email to: paul....
+2440.414 (5) Mails were not sent successfully
+2440.416 (5) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: email to: paul....
+2440.445 (5) Mails were not sent successfully
+2440.447 (5) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: email to: paul....
+2440.457 (5) Mails were not sent successfully
+2440.478 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2440.485 (5) Number of backup sets in history: 1; groups (db): 1
+2440.487 (5) Examining (for databases) backup set with group_id=0, nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+2440.487 (5) This backup set is the backup set just made, so will not be deleted.
+2440.487 (5) Number of backup sets in history: 1; groups (files): 1
+2440.488 (5) Examining (for files) backup set with nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+2440.488 (5) This backup set is the backup set just made, so will not be deleted.
+2440.489 (5) This backup set is the backup set just made, so will not be deleted.
+2440.489 (5) This backup set is the backup set just made, so will not be deleted.
+2440.489 (5) This backup set is the backup set just made, so will not be deleted.
+2440.489 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2440.490 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2440.506 (5) Resume backup (16df9bb2f2c6, 5): finish run
+2440.521 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2440.525 (5) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+2741.964 (6) Opened log file at time: Thu, 13 Dec 2018 10:17:35 +0000 on http://localhost/cuisinella
+2741.966 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux yesweweb-7 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.9M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+2741.973 (6) Free space on disk containing Updraft's temporary directory: 5705.6 MB
+2741.994 (6) Backup run: resumption=6, nonce=16df9bb2f2c6, begun at=1544693513 (2742s ago), job type=backup
+2741.996 (6) Scheduling a resumption (7) after 300 seconds (1544696555) in case this run gets aborted
+2741.999 (6) Checking if we have a zip executable available
+2742.001 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+2742.008 (6) Creation of backups of directories: already finished
+2742.020 (6) Saving backup status to database (elements: 8)
+2742.029 (6) Database dump (WordPress DB): Creation was completed already
+2742.034 (6) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2742.036 (6) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2742.049 (6) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2742.062 (6) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: others: This file has not yet been successfully uploaded: will queue
+2742.064 (6) backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/cuisinella/wp-content/updraft/backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz)
+2742.066 (6) Recording as successfully uploaded: backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz
+2742.071 (6) Saving backup history. Total backup size: Unknown
+2742.085 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+2742.099 (6) Cloud backup selection (1/1): email with instance (1/1) (last)
+2742.100 (6) Beginning dispatch of backup to remote (email)
+2742.102 (6) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: email to: paul....
+2742.303 (6) Mails were not sent successfully
+2742.305 (6) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: email to: paul....
+2742.358 (6) Mails were not sent successfully
+2742.370 (6) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: email to: paul....
+2742.411 (6) Mails were not sent successfully
+2742.424 (6) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: email to: paul....
+2742.441 (6) Mails were not sent successfully
+2742.447 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2742.448 (6) Number of backup sets in history: 1; groups (db): 1
+2742.451 (6) Examining (for databases) backup set with group_id=0, nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+2742.451 (6) This backup set is the backup set just made, so will not be deleted.
+2742.451 (6) Number of backup sets in history: 1; groups (files): 1
+2742.458 (6) Examining (for files) backup set with nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+2742.458 (6) This backup set is the backup set just made, so will not be deleted.
+2742.470 (6) This backup set is the backup set just made, so will not be deleted.
+2742.470 (6) This backup set is the backup set just made, so will not be deleted.
+2742.471 (6) This backup set is the backup set just made, so will not be deleted.
+2742.471 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2742.481 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2742.485 (6) Resume backup (16df9bb2f2c6, 6): finish run
+2742.493 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2742.521 (6) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+3414.256 (7) Opened log file at time: Thu, 13 Dec 2018 10:28:48 +0000 on http://localhost/cuisinella
+3414.257 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux yesweweb-7 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.9M | 6M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+3414.266 (7) Free space on disk containing Updraft's temporary directory: 5689.2 MB
+3414.293 (7) Backup run: resumption=7, nonce=16df9bb2f2c6, begun at=1544693513 (3415s ago), job type=backup
+3414.295 (7) Scheduling a resumption (8) after 300 seconds (1544697228) in case this run gets aborted
+3414.301 (7) Checking if we have a zip executable available
+3414.303 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+3414.312 (7) Creation of backups of directories: already finished
+3414.326 (7) Saving backup status to database (elements: 8)
+3414.336 (7) Database dump (WordPress DB): Creation was completed already
+3414.342 (7) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3414.345 (7) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3414.352 (7) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3414.365 (7) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: others: This file has not yet been successfully uploaded: will queue
+3414.381 (7) backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/cuisinella/wp-content/updraft/backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz)
+3414.384 (7) Recording as successfully uploaded: backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz
+3414.387 (7) Saving backup history. Total backup size: Unknown
+3414.389 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+3414.420 (7) Cloud backup selection (1/1): email with instance (1/1) (last)
+3414.422 (7) Beginning dispatch of backup to remote (email)
+3414.424 (7) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: email to: paul....
+3414.727 (7) Mails were not sent successfully
+3414.735 (7) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: email to: paul....
+3414.879 (7) Mails were not sent successfully
+3414.881 (7) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: email to: paul....
+3414.953 (7) Mails were not sent successfully
+3414.957 (7) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: email to: paul....
+3414.970 (7) Mails were not sent successfully
+3414.987 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3415.000 (7) Number of backup sets in history: 1; groups (db): 1
+3415.002 (7) Examining (for databases) backup set with group_id=0, nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+3415.002 (7) This backup set is the backup set just made, so will not be deleted.
+3415.002 (7) Number of backup sets in history: 1; groups (files): 1
+3415.003 (7) Examining (for files) backup set with nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+3415.003 (7) This backup set is the backup set just made, so will not be deleted.
+3415.004 (7) This backup set is the backup set just made, so will not be deleted.
+3415.004 (7) This backup set is the backup set just made, so will not be deleted.
+3415.004 (7) This backup set is the backup set just made, so will not be deleted.
+3415.004 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3415.005 (7) Retain: saving new backup history (sets now: 1) and finishing retain operation
+3415.009 (7) Resume backup (16df9bb2f2c6, 7): finish run
+3415.037 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3415.040 (7) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+4711.520 (8) Opened log file at time: Thu, 13 Dec 2018 10:50:25 +0000 on http://localhost/cuisinella
+4711.527 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux yesweweb-7 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.9M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+4711.529 (8) Free space on disk containing Updraft's temporary directory: 5621.8 MB
+4711.538 (8) Backup run: resumption=8, nonce=16df9bb2f2c6, begun at=1544693513 (4712s ago), job type=backup
+4711.554 (8) Long time past since expected resumption time: approx expected=1544697227, now=1544698225.4, diff=998.4
+4711.571 (8) [Warning] Votre site est consulté rarement et UpdraftPlus ne peut récupérer les ressources qu'il recherche; veuillez prendre connaissance de cette page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+4711.575 (8) Scheduling a resumption (9) after 300 seconds (1544698525) in case this run gets aborted
+4711.579 (8) Checking if we have a zip executable available
+4711.581 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+4711.594 (8) Creation of backups of directories: already finished
+4711.609 (8) Saving backup status to database (elements: 8)
+4711.623 (8) Database dump (WordPress DB): Creation was completed already
+4711.629 (8) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4711.631 (8) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4711.638 (8) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4711.653 (8) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: others: This file has not yet been successfully uploaded: will queue
+4711.660 (8) backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/cuisinella/wp-content/updraft/backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz)
+4711.665 (8) Recording as successfully uploaded: backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz
+4711.669 (8) Saving backup history. Total backup size: Unknown
+4711.688 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+4711.706 (8) Cloud backup selection (1/1): email with instance (1/1) (last)
+4711.709 (8) Beginning dispatch of backup to remote (email)
+4711.712 (8) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: email to: paul....
+4712.354 (8) Mails were not sent successfully
+4712.363 (8) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: email to: paul....
+4712.527 (8) Mails were not sent successfully
+4712.541 (8) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: email to: paul....
+4712.682 (8) Mails were not sent successfully
+4712.699 (8) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: email to: paul....
+4712.725 (8) Mails were not sent successfully
+4712.735 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4712.743 (8) Number of backup sets in history: 1; groups (db): 1
+4712.745 (8) Examining (for databases) backup set with group_id=0, nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+4712.745 (8) This backup set is the backup set just made, so will not be deleted.
+4712.745 (8) Number of backup sets in history: 1; groups (files): 1
+4712.769 (8) Examining (for files) backup set with nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+4712.769 (8) This backup set is the backup set just made, so will not be deleted.
+4712.783 (8) This backup set is the backup set just made, so will not be deleted.
+4712.783 (8) This backup set is the backup set just made, so will not be deleted.
+4712.784 (8) This backup set is the backup set just made, so will not be deleted.
+4712.784 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+4712.785 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+4712.790 (8) Resume backup (16df9bb2f2c6, 8): finish run
+4712.793 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4712.820 (8) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+5065.591 (9) Opened log file at time: Thu, 13 Dec 2018 10:56:19 +0000 on http://localhost/cuisinella
+5065.598 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.7 WP: 5.0.1 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux yesweweb-7 4.15.0-42-generic #45~16.04.1-Ubuntu SMP Mon Nov 19 13:02:27 UTC 2018 x86_64) MySQL: 5.7.24-0ubuntu0.16.04.1 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.5M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+5065.600 (9) Free space on disk containing Updraft's temporary directory: 5686.2 MB
+5065.603 (9) Backup run: resumption=9, nonce=16df9bb2f2c6, begun at=1544693513 (5066s ago), job type=backup
+5065.604 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+5065.612 (9) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+5065.625 (9) Creation of backups of directories: already finished
+5065.632 (9) Saving backup status to database (elements: 8)
+5065.636 (9) Database dump (WordPress DB): Creation was completed already
+5065.638 (9) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5065.639 (9) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5065.645 (9) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5065.658 (9) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: others: This file has not yet been successfully uploaded: will queue
+5065.666 (9) backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/var/www/html/cuisinella/wp-content/updraft/backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz)
+5065.667 (9) Recording as successfully uploaded: backup_2018-12-13-1031_Cuisine_est_la_16df9bb2f2c6-db.gz
+5065.671 (9) Saving backup history. Total backup size: Unknown
+5065.679 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+5065.699 (9) Cloud backup selection (1/1): email with instance (1/1) (last)
+5065.701 (9) Beginning dispatch of backup to remote (email)
+5065.702 (9) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-plugins.zip: email to: paul....
+5065.877 (9) Mails were not sent successfully
+5065.881 (9) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-themes.zip: email to: paul....
+5065.951 (9) Mails were not sent successfully
+5065.954 (9) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-uploads.zip: email to: paul....
+5066.009 (9) Mails were not sent successfully
+5066.012 (9) backup_2018-12-13-1031_Cuisine_est_la_a91c83c6f68a-others.zip: email to: paul....
+5066.025 (9) Mails were not sent successfully
+5066.029 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5066.042 (9) Number of backup sets in history: 1; groups (db): 1
+5066.057 (9) Examining (for databases) backup set with group_id=0, nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+5066.057 (9) This backup set is the backup set just made, so will not be deleted.
+5066.057 (9) Number of backup sets in history: 1; groups (files): 1
+5066.058 (9) Examining (for files) backup set with nonce=16df9bb2f2c6, datestamp=1544693513 (Dec 13 2018 09:31:53)
+5066.058 (9) This backup set is the backup set just made, so will not be deleted.
+5066.059 (9) This backup set is the backup set just made, so will not be deleted.
+5066.059 (9) This backup set is the backup set just made, so will not be deleted.
+5066.059 (9) This backup set is the backup set just made, so will not be deleted.
+5066.059 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5066.060 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+5066.064 (9) Resume backup (16df9bb2f2c6, 9): finish run
+5066.084 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5066.093 (9) Fetching RSS news feed
+5066.102 (9) Fetched RSS news feed; result is a: SimplePie
+5066.104 (9) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 1, size: 39.2 KB) to: paul....
+5066.116 (9) La tentative de sauvegarde est terminée, apparemment sans succès
